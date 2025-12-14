@@ -1,0 +1,4 @@
+# GovernanceOfGolem default config
+scan-interval-ticks: 5
+search-radius: 6
+cooldown-ms: 1000

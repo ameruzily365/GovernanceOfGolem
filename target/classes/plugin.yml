@@ -1,0 +1,13 @@
+name: GovernanceOfGolem
+version: 1.0.0
+main: dev.ameruzily.gog.CopperGolemFilterPlugin
+api-version: "1.21"
+softdepend: [ItemsAdder]
+commands:
+  gog:
+    description: Governance Of Golem admin command
+    usage: /gog
+    permission: gog.admin
+permissions:
+  gog.admin:
+    default: op
